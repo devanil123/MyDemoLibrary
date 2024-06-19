@@ -6,8 +6,6 @@ import android.content.Intent
 import android.widget.Toast
 
 
-
-
 class ToasterMessage {
 
     fun s(c: Context?, message: String?) {
@@ -15,9 +13,8 @@ class ToasterMessage {
 
     }
 
-    fun loadFrame(activity: Activity)
+    fun loadFrame()
     {
-        activity.startActivity(Intent(activity,LuncherActivity::class.java))
-
+        LuncherActivity().start()
     }
 }
