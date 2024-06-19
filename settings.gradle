@@ -1,0 +1,4 @@
+
+rootProject.name = "LibraryCreater"
+include ':app'
+include ':mylibrary'
